@@ -1,3 +1,5 @@
+#我并没有做得很好，但，我仍然在成长中.(2023.12.9)
+#这是我之前写的，现在继续更（2023.12.9）
 #吃饭练习
 #向大家问好
 吃饭的人名字=["1","2","3"]
@@ -77,3 +79,51 @@ print("i think is true")
 d="qwertyuiopasdfghjkl"
 print(d!="qwertyuiopasdfghjkl")
 print("i think is false")
+#来复习一下, :( [马上要考试，啊啊啊啊啊啊啊啊啊] 悲{2023.12.9}
+#if的结构练习[1]
+age=12
+if age > 18:
+    print("you can play games")
+elif age < 18:
+    print("you can't play games")
+#if的结构练习[2]
+age=18
+if age < 18:
+    print("you can't play games")
+elif age > 18:
+    print("you can play games")
+else:
+    print("you can play games,too")
+#if的结构练习[3]    
+beautiful=["a","b","c"]
+if "a" in beautiful:
+    print("hello,a!")
+if "b" in beautiful:
+    print("hello,b!")
+if "c" in beautiful:
+    print("hello,c!")
+print("hello everyone!")
+#年龄练习
+newage=12
+if newage < 2:
+    print("他是婴儿")
+elif newage < 4:
+    print("他正蹒跚学步")
+elif newage < 13:
+    print("他是儿童")
+elif newage < 20:
+    print("他是青少年")
+elif newage < 65:
+    print("他是成年人")
+elif newage > 65:
+    print("他是老年人")
+#管理员问候 
+yonghu=["a","b","c","admin"]
+for yonghubiao in yonghu:
+    print("hello!")
+    if yonghubiao =="admin":
+        print("hello,admin!")
+#字典{终于开始力}
+colour={"a":"green","b":"yellow","c":"red"}
+print(colour)
+print(colour["a"])
